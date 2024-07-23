@@ -4,7 +4,7 @@ import { initializeApp } from 'firebase/app';
 import { getAnalytics } from 'firebase/analytics';
 import { getDatabase, ref, onValue } from 'firebase/database';
 import Boxing from '@/components/ui/boxing';
-import AddTugas from '@/components/ui/addTugas';
+import AddTugas from '@/components/ui/addtugas';
 import { use, useState, useEffect, useCallback } from 'react';
 
 export default function Home() {
