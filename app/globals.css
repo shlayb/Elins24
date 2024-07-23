@@ -67,8 +67,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-.navbar-fixed {
-  @apply fixed z-[9999] w-[95%]  bg-gray-300 opacity-90 border-0 rounded-xl my-4 max-lg:w-[95%] drop-shadow-md;
-  backdrop-filter: blur(10px);
-}
